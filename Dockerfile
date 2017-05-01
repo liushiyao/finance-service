@@ -1,8 +1,6 @@
 FROM ubuntu:14.04
 
-RUN apt-get update
-RUN apt-get install -y --force-yes python python-dev python-setuptools
-RUN apt-get clean all
+RUN apt-get update -y
 
 RUN apt-get install python-pip
 RUN pip install pyzmq
