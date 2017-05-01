@@ -1,8 +1,7 @@
-FROM ubuntu:14.04
+FROM daocloud.io/python:2-onbuild
 
-RUN apt-get update -y
+MAINTAINER liushiyao <walrkson@gmail.com>
 
-RUN apt-get install python-pip
 RUN pip install pyzmq
 RUN pip install Flask
 
