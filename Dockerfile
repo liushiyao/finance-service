@@ -1,4 +1,4 @@
-FROM daocloud.io/python:2-onbuild
+FROM daocloud.io/python:2.7
 
 MAINTAINER liushiyao <walrkson@gmail.com>
 
